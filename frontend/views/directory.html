@@ -1,0 +1,15 @@
+<div class="content">
+  <div class="buttons">
+    <button ng-click="addPerson()">Add</button>
+    <button ng-click="order = 'name'">Order by Name</button>
+  </div>
+  <ul>
+    <li><h3>Name</h3><h3>Job title</h3><h3>Age</h3><h3>Nickname</h3><h3>Employee</h3><h3>Delete</h3></li>
+    <li ng-repeat="person in persons | orderBy: order | filter: search">
+      <h3>{{person.name}}</h3><h3>{{person.job}}</h3><h3>{{person.age}}</h3><h3>{{person.nick}}</h3><h3><input class="chk" ng-checked={{person.employee}} disabled="true" type="checkbox"></input></h3>
+      <h3><div class="remove" ng-click="removePerson(person)">x</div></h3>
+    </li>
+  </ul>
+  <div class="dump">Data dump</div>
+  <div><textarea ng-model="dataDump"></textarea></div>
+</div>

@@ -1,0 +1,41 @@
+{
+  "name": "homeworkeuedge",
+  "version": "1.0.0",
+  "description": "homeworkeuedge",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main",
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oregzoltan/homework-eu-edge"
+  },
+  "keywords": [
+    "euedge"
+  ],
+  "author": "Zoltan Oreg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oregzoltan/homework-eu-edge#readme/issues"
+  },
+  "homepage": "https://github.com/oregzoltan/homework-eu-edge#readme",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-mocks": "^1.5.8",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "nd-dialog": "^3.0.2"
+  },
+  "devDependencies": {
+    "angular-route": "^1.5.8",
+    "babel-eslint": "^6.1.2",
+    "del": "^2.2.1",
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.9.2",
+    "eslint-plugin-jsx-a11y": "^1.5.3",
+    "eslint-plugin-react": "^5.2.2",
+    "run-sequence": "^1.2.2"
+  }
+}
